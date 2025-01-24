@@ -1,4 +1,5 @@
 # TinySanaPreview
+TinySanaPreview is a custom ComfyUI node that implements real-time previews during generation for Sana diffusion models.
 ![](images/preview.gif)
 
 ## Setup
