@@ -1,0 +1,14 @@
+[project]
+name = "tiny-sana-preview"
+description = "TinySanaPreview is a custom ComfyUI node that implements real-time previews during generation for Sana diffusion models."
+version = "1.0.0"
+license = {file = "LICENSE.md"}
+
+[project.urls]
+Repository = "https://github.com/cake-ml/tiny-sana-preview"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "cake-ml"
+DisplayName = "tiny-sana-preview"
+Icon = ""
