@@ -1,7 +1,7 @@
 [project]
 name = "tiny-sana-preview"
 description = "TinySanaPreview is a custom ComfyUI node that implements real-time previews during generation for Sana diffusion models."
-version = "1.0.0"
+version = "1.0.1"
 license = {file = "LICENSE.md"}
 
 [project.urls]

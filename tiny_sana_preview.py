@@ -88,9 +88,9 @@ def prepare_callback_patch(model, steps, x0_output_dict=None):
         tsd = node.tsd
 
     dtype = torch.bfloat16
-    if model.attachments["tsd_dtype"] == "float32":
+    if model.attachments["tsd_dtype"] == "fp32":
         dtype = torch.float32
-    elif model.attachments["tsd_dtype"] == "float16":
+    elif model.attachments["tsd_dtype"] == "fp16":
         dtype = torch.float16
     tsd.to(device=model.load_device, dtype=dtype)
 
